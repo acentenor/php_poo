@@ -1,5 +1,4 @@
 <?php
-
   class Pagina {
     //atributos
     public $nombre = "Código Facilito";
@@ -19,11 +18,10 @@
 
   }
 
-$pagina = new Pagina();
-$pagina->bienvenida();
+  $pagina = new Pagina();
+  $pagina->bienvenida();
 
-Pagina::bienvenida2();
+  Pagina::bienvenida2();
 
-Web::bienvenida2();
-
+  Web::bienvenida2();
 ?>

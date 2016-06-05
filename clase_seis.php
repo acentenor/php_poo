@@ -1,5 +1,4 @@
 <?php
-
   class Vehiculo {
     //atributos
     public $motor = false;
@@ -36,16 +35,14 @@
 
   }
 
+  $vehiculo = new Vehiculo();
+  $vehiculo->estado();
+  $vehiculo->encender();
+  $vehiculo->estado();
 
+  $moto = new Moto();
+  $moto->estadoMoto();
 
-$vehiculo = new Vehiculo();
-$vehiculo->estado();
-$vehiculo->encender();
-$vehiculo->estado();
-
-$moto = new Moto();
-$moto->estadoMoto();
-
-$cmoto = new CuatriMoto();
-$cmoto->estado();
+  $cmoto = new CuatriMoto();
+  $cmoto->estado();
 ?>
