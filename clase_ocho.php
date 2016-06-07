@@ -18,15 +18,15 @@
     //métodos
     public function estado() {
       if ($this->estado) {
-        printf "El auto está encendido y tiene " . $this->tanque . " de litro en el tanque. <br>";
+        print "El auto está encendido y tiene " . $this->tanque . " de litro en el tanque. <br>";
       } else {
-        printf "El auto está apagado <br>";
+        print "El auto está apagado <br>";
       }
     }
 
     public function encender() {
       if ($this->estado) {
-        printf "No puedes encender el auto dos veces <br>";
+        print "No puedes encender el auto dos veces <br>";
       } else {
         if ($this->tanque <= 0) {
           print "No puedes encender al auto porque el tanque está vacío <br>";
