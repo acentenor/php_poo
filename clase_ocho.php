@@ -1,4 +1,5 @@
 <?php
+  //clase 8 - interfaces
   interface Auto {
       public function encender();
       public function apagar();

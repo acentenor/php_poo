@@ -1,4 +1,5 @@
 <?php
+  //Clase 5 - Modificadores de acceso
     class Facebook{
 
         //atributos

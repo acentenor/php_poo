@@ -1,4 +1,5 @@
 <?php
+    //(clase 1 es introducción) clase 2 - Clases y objetos 
     class Persona {
         //atributos
         public $nombre = "Alvaro";

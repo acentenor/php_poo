@@ -1,4 +1,5 @@
 <?php
+  //métodos y atributos estáticos
   class Pagina {
     //atributos
     public $nombre = "Código Facilito";

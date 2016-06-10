@@ -1,4 +1,5 @@
 <?php
+  //Clase 4 - Construct y destruct
     class Loteria{
 
         //atributos

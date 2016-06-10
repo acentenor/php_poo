@@ -1,4 +1,5 @@
 <?php
+  //Clase 3 - Métodos y atributos
     class Persona {
 
         //atributos

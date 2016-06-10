@@ -1,4 +1,5 @@
 <?php
+  //Clase 6 - Herencia
   class Vehiculo {
     //atributos
     public $motor = false;
