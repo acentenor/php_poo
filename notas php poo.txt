@@ -1,0 +1,74 @@
+atributos
+las propiedades
+ej:
+nombre, edad, sexo...
+se definen como una variable
+pueden ser tambien arrays
+tipos: public, private, protected
+
+metodos
+acciones
+ej
+hablar, correr...
+se definen como una función
+se pueden acceder con $this->nombre del atributo
+se puede acceder a otros métodos de esa misma clase con $this o self::
+tambien pueden ser de tipos: public, private, protected
+
+ejemplo artículo:
+métodos:
+crear, eliminar, editar, ver
+
+atributos
+id, título, contenido, fecha
+
+-> significa que estamos llamando un atributo o un método de una clase
+this hace referencia a un atributo o a un método
+
+construct
+es público
+no retorna nada
+al instanciar la clase el método se ejecuta automáticamente
+
+destruct
+es público
+no retorna nada
+se ejectuta automáticamente al final de la clase
+
+modificadores de acceso
+son propiedades que podemos a los métodos y atributos de nuestra clase
+nos ayudan con los accesos y extracción de métodos o atributos
+tipos:
+public
+se puede realizar de todo (y por todos)
+
+private
+solo se accede por medio de otro método de la clase
+
+protect
+puede ser accedido por la clase y todas sus subclases pero no por los objetos que se definan (instancíen) de dichas clases
+
+herencia
+se crean nuevas clases partiendo de clases existentes con todos sus atributos y métodos y además se le pueden añadir otros atributos y métodos propios
+php no permite la herencia múltiple
+se hereda con la palabra reservada extends 
+
+métodos y atributos static
+un método estático no puede acceder a los atributos de la clase 
+indicamos primero el nombre de la clase, luego el operador :: y por último indicamos el nombre del método estático a llamar
+los atributos estáticos no pueden ser accedidos a través del objeto utilizando el operador flecha ->
+un método estático es lo más parecido a una función de un lenguaje estructurado, sólo que se lo encapsula dentro de una clase
+
+interfaces de objetos
+todos los métodos de interfaz deben ser públicos
+las interfaces de objetos permiten crear código con el cual especificamos qué métodos deben ser implementados por una clase
+para implementar una interfaz, se utiliza el operador implements
+las interfaces se pueden extender al igual que las clases utilizando el operador extends
+por qué usar interfaces y no clases?
+En la programación orientada a objetos existen los conceptos de herencia y herencia múltiple. Algunos lenguajes como Python pueden hacer herencia múltiple. Sin embargo, lenguajes como php o java no tienen dicha capacidad y usan las interfaces como un mecanismo para lograr hacer "herencia múltiple". Las interfaces permiten a una clase que ya está heredando de otra, implementar características de otras clases.
+
+abastracción
+una clase abstracta tiene por objetivo agrupar atributos y métodos que luego serán heredados por otras subclases
+las clases definidas como abstractas no se pueden instanciar y cualquier clase que tenga al menos un método abstracto debe definirse como clase abstracta
+si queremos que las subclases implementen comportamientos obligatoriamente podemos definir métodos abstractos
+un método abstracto se declara en una clase pero no se lo implementa
