@@ -91,7 +91,6 @@ namespaces
 nos ayudan a tener que colocar sub-nombres a nuestros archivos, clases o funciones
 ej: ¿cuántas veces hemos tenido que cambiar nombres de clases porque ya existía otra con el mismo nombre? los namespaces nos ayudan a corregir esto
 
-
 proyecto del curso
 
 
