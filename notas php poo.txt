@@ -72,3 +72,43 @@ una clase abstracta tiene por objetivo agrupar atributos y métodos que luego ser
 las clases definidas como abstractas no se pueden instanciar y cualquier clase que tenga al menos un método abstracto debe definirse como clase abstracta
 si queremos que las subclases implementen comportamientos obligatoriamente podemos definir métodos abstractos
 un método abstracto se declara en una clase pero no se lo implementa
+
+
+autoload
+se puede definir una función que es invocada automáticamente en caso de que se esté intentando usar una clase/interfaz que todavia no haya sido definida
+se usará la función spl_autoload_register(), esta función verifica cuál es la clase y luego la llama antes de tirar error 
+se puede usar con un $_GET si nuestras clases están separadas por carpetas ej: include $_GET['variable_nombre_carpeta'] . "/" . $clase . ".php";
+
+traits
+son fragmentos de código los cuales pueden ser reusados en diferentes clases
+las clases pueden permitir tantos traits como sea posible sólo separándolos con una coma
+más sobre traits:
+son similares a las clases pero con el único objetivo de agrupar funcionalidades muy específicas y de una manera coherente.
+No se pueden instanciar, es por tanto, un añadido a la herencia tradicional que permite combinar miembros de clases sin tener que usar la herencia
+No se pueden llamar igual que una clase, si un método se llama igual se le da prioridad al de la clase
+
+namespaces
+
+
+proyecto del curso
+
+
+configuración del autoload
+
+
+creación de request y enrutador
+
+
+renderizar vistas y clase plantilla
+
+
+vistas: listar estudiantes y secciones
+
+
+vistas: agregar estudiantes y secciones
+
+
+editar, ver y eliminar estudiantes
+
+
+vistas: editar y eliminar secciones
