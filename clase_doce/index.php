@@ -1,5 +1,5 @@
 <?php
-  //Clase doce namespaces
+  //Clase doce namespaces (así funcionan los frameworks (mas o menos))
 
   spl_autoload_register(function($clase){
 
