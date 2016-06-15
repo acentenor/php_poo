@@ -1,5 +1,4 @@
 <?php
-
  class Persona {
 
   public function mostrar($mensaje) {
