@@ -88,6 +88,8 @@ No se pueden instanciar, es por tanto, un añadido a la herencia tradicional que 
 No se pueden llamar igual que una clase, si un método se llama igual se le da prioridad al de la clase
 
 namespaces
+nos ayudan a tener que colocar sub-nombres a nuestros archivos, clases o funciones
+ej: ¿cuántas veces hemos tenido que cambiar nombres de clases porque ya existía otra con el mismo nombre? los namespaces nos ayudan a corregir esto
 
 
 proyecto del curso
