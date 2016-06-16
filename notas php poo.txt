@@ -92,6 +92,14 @@ nos ayudan a tener que colocar sub-nombres a nuestros archivos, clases o funcion
 ej: ¿cuántas veces hemos tenido que cambiar nombres de clases porque ya existía otra con el mismo nombre? los namespaces nos ayudan a corregir esto
 
 proyecto del curso
+se desarrolla un simple CRUD el cual administrará los estudiantes de un salón, estará divido en secciones y cada estudiante tendrá su imágen
+estructura
+vistas: agregar, editar, eliminar y ver
+clases: estudiante, sección y conexión
+archhivos: .htaccess, autoload, index.php
+un par de controladores
+uso de namespaces 
+y un enrutador: archivo encargado de llamar a las vistas y clases
 
 
 configuración del autoload
